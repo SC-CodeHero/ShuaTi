@@ -1,4 +1,6 @@
-/* No.3 序列化一个二叉树。假设二叉树的节点内容就是一个A to Z之间的字母。序列化就是说给一个二叉树，能转化成一个string，然  * 后这个string，能还原成原来的二叉树。（相当于要实现两个function）不同节点可以存相同内容。
+/* No.3 序列化一个二叉树。假设二叉树的节点内容就是一个A to Z之间的字母。
+ * 序列化就是说给一个二叉树，能转化成一个string，然后这个string，能还
+ * 原成原来的二叉树。（相当于要实现两个function）不同节点可以存相同内容。
  */
  
 public static void Serialize(StringBuilder stringBuilder, BinaryTreeNode node)
