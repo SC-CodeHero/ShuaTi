@@ -20,7 +20,7 @@ public static void Serialize(BinaryTreeNode node)
 {
 　StringBuilder stringBuilder = new StringBuilder();
 　Serialize(stringBuilder, node);
-　Console.WriteLine(stringBuilder.ToString());
+　Console.WriteLine(stringBuilder.ToString()); // add comments by pokertars
 }
 
 public static BinaryTreeNode Deserialize(StringReader reader)
