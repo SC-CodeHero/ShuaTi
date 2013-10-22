@@ -10,9 +10,10 @@ public static void Serialize(StringBuilder stringBuilder, BinaryTreeNode node)
 　　stringBuilder.Append('#');
 　else
 　{
+　  // New comments here: pokertars
 　　stringBuilder.Append(node.Data);
 　　Serialize(stringBuilder, node.Left);
-　　Serialize(stringBuilder, node.Right);
+　　Serialize(stringBuilder, node.Right); 
 　}
 }
 
