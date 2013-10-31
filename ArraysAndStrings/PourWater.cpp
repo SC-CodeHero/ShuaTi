@@ -25,5 +25,6 @@ int PourWater(int arr[], int len)
 		res += max(min(maxSofar, leftMax[i])-arr[i], 0);
 	}
 	
+	delete[] leftMax;
 	return res;
 }
